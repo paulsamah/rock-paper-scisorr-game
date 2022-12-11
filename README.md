@@ -1,4 +1,4 @@
-# rock-paper-scisorr-game
+rock-paper-scisorr-game
 
 using HTML, CSS, JavaScript
 
