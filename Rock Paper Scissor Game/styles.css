@@ -1,0 +1,72 @@
+
+
+body {
+    height: 100hv;
+    background: linear-gradient(135deg, rgb(238, 176, 176), rgb(164, 164, 215));
+}
+
+.container {
+    width: 45%;
+    min-width: 500px;
+    background-color: antiquewhite;
+    padding: 40px 30px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    box-shadow: 0 15px 35px rgb(93, 87, 87);
+}
+
+.scores {
+    margin-bottom: 50px;
+    text-align: right;
+}
+
+.weapons {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.weapons button {
+    background-color: aqua;
+    color: black;
+    border: none;
+    font-size: 50px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.detailes {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.scores, .detailes {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+span {
+    font-size: large;
+}
+
+.draw {
+    background-color: blue;
+    color: antiquewhite;
+}
+
+.user-win {
+    background-color: greenyellow;
+    color: antiquewhite;
+}
+
+.pc-win {
+    background-color: red;
+    color: antiquewhite;
+}
